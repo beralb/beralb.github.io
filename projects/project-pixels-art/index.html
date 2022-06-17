@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="central">
+    <div class="titlediv">
+      <h1 id="title">Paleta de Cores</h1>
+    </div>
+    <section id="color-palette">
+      <div id="firstPalleteColorDiv" class="color firstPalleteColor selected"></div>
+      <div class="color secondPalleteColor"></div>
+      <div class="color thirdPalleteColor"></div>
+      <div class="color fourthPalleteColor"></div>
+    </section>
+    <section class="buttons">
+      <div>
+        <button id="clear-board">Limpar</button>
+      </div>
+      <div id="inputbutton-container">
+        <input type="number" min="1" id="board-size" placeholder="quantas linhas/colunas?">
+        <button id="generate-board">VQV</button>
+      </div>
+    </section>
+    <section id="pixel-board"></section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

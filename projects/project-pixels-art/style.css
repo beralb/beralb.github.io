@@ -1,0 +1,94 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  border: 2px solid rgb(152, 149, 149);
+  margin: 100px;
+  background-image: url(./Grey-Wallpaper-For-Computer02.jpg);
+}
+
+#central {
+  background-color: rgba(217, 224, 227, 0.835);
+  opacity: 0.6;
+}
+
+#color-palette {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+}
+
+.titlediv {
+  margin: auto;
+  width: 50%;
+  border: px solid green;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.buttons {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 30px;
+  width: 50%;
+  align-items: center;
+}
+
+#pixel-board {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: auto;
+}
+
+.color {
+  border: black 1px solid;  
+  width: 100px;
+  height: 100px;
+}
+
+.firstPalleteColor { 
+  background-color: black;
+}
+
+.secondPalleteColor {
+  background-color: blue;
+}
+
+.thirdPalleteColor {
+  background-color: green;
+}
+
+.fourthPalleteColor {
+  background-color: yellow;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid;
+  color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#clear-board {
+  margin-top: 2%;
+  padding: 6px;
+}
+
+#generate-board {
+  padding: 6px;
+}
+#board-size {
+  padding: 6px;
+}
+
+#inputbutton-container {
+  display: flex;
+  margin-top: 5%;
+}
