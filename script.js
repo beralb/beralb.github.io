@@ -20,4 +20,3 @@ function liClickHandler(event) {
 }
 
 navbarList.forEach((element) => element.addEventListener('click', liClickHandler));
-window.onload = listLineClickCreator(navbarList);

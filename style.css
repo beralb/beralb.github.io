@@ -70,13 +70,8 @@ section {
 .navbar-nav .nav-link.active,
 .navbar-nav .show>.nav-link {
   color: #b636ff;
-  /* color: #999fb3; */
   font-weight: bold;
 }
-
-/* #top-menu .current a {
-  color: #b636ff !important;
-} */
 
 /* FirstSection Styles*/
 
