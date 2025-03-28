@@ -1,61 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jean Paul Bernhardt - Desenvolvedor Full Stack</title>
-    <meta http-equiv="refresh" content="0; URL=https://beralb.github.io/portfolio-jean/" />
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval';
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      img-src 'self' data: https:;
+      font-src 'self' https://fonts.gstatic.com;
+      connect-src 'self';
+      frame-src 'none';
+      object-src 'none';
+      base-uri 'self';
+      form-action 'self';
+      upgrade-insecure-requests;
+    ">
+    <title>Jean Paul Bernhardt | Desenvolvedor Full Stack</title>
+    
+    <!-- Meta tags para SEO -->
+    <meta name="description" content="Portfolio de Jean Paul Bernhardt - Desenvolvedor Full Stack especializado em criar experiências digitais excepcionais com React, TypeScript e WordPress." />
+    <meta name="keywords" content="desenvolvedor full stack, react, typescript, wordpress, web development, portfolio" />
+    <meta name="author" content="Jean Paul Bernhardt" />
+    
+    <!-- Meta tags para redes sociais -->
+    <meta property="og:title" content="Jean Paul Bernhardt | Desenvolvedor Full Stack" />
+    <meta property="og:description" content="Portfolio de Jean Paul Bernhardt - Desenvolvedor Full Stack especializado em criar experiências digitais excepcionais." />
+    <meta property="og:type" content="website" />
+    
     <style>
-        :root {
-            --background: #E9DFCE;
-            --foreground: #1A1A1A;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--background);
-            color: var(--foreground);
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 2rem;
-            text-align: center;
-        }
-
-        h1 {
-            font-family: 'Bodoni Moda', serif;
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            font-weight: normal;
-            letter-spacing: 0.1em;
-        }
-
-        p {
-            margin-bottom: 2rem;
-            opacity: 0.8;
-        }
-
-        a {
-            color: var(--foreground);
-            text-decoration: none;
-            padding: 0.75rem 1.5rem;
-            border: 2px solid var(--foreground);
-            border-radius: 9999px;
-            transition: all 0.3s ease;
-        }
-
-        a:hover {
-            background-color: var(--foreground);
-            color: var(--background);
-        }
+      /* Ensure dark mode styles are applied immediately */
+      :root.dark {
+        background-color: #1A1A1A;
+        color: #E9DFCE;
+      }
     </style>
-</head>
-<body>
-    <h1>Redirecionando...</h1>
-    <p>Você será redirecionado automaticamente para o novo portfólio em alguns segundos.</p>
-    <a href="https://beralb.github.io/portfolio-jean/">Clique aqui se não for redirecionado automaticamente</a>
-</body>
+    <script>
+      // Force dark mode unless explicitly set to false
+      if (localStorage.getItem('darkMode') !== 'false') {
+        localStorage.setItem('darkMode', 'true');
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BjxZ61pg.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-8770ZQRS.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html> 
